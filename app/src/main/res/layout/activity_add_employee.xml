@@ -11,16 +11,23 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
+
+
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="姓名" />
@@ -32,6 +39,7 @@
             android:layout_height="wrap_content">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/age"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="年龄"
@@ -42,25 +50,30 @@
         <RadioGroup
             android:id="@+id/gender"
             android:layout_width="match_parent"
-            android:orientation="horizontal"
+            android:layout_height="wrap_content"
             android:checkedButton="@id/male"
             android:gravity="center_horizontal"
-            android:layout_height="wrap_content">
+            android:orientation="horizontal">
 
             <RadioButton
-                android:checked="true"
                 android:id="@+id/male"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:checked="true"
                 android:text="男" />
 
             <RadioButton
                 android:id="@+id/female"
                 android:layout_width="wrap_content"
-                android:layout_marginLeft="10dp"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
                 android:text="女" />
         </RadioGroup>
+        <Button
+            android:id="@+id/add_to_db"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_to_db" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

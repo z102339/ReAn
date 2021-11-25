@@ -23,7 +23,7 @@ public class EmTbOp{
 
     public long insert(Person person) {
         ContentValues contentValues = new ContentValues();
-        contentValues.put(ID, person.getId());
+//        contentValues.put(ID, person.getId());
         contentValues.put(NAME,person.getName());
         contentValues.put(AGE,person.getAge());
         contentValues.put(GENDER,person.getGender());

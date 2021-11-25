@@ -3,7 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AndroidStudioProjects/ReAn/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2125" />
+        <entry key="..\:/AndroidStudioProjects/ReAn/app/src/main/res/drawable/delete.xml" value="0.17037037037037037" />
+        <entry key="..\:/AndroidStudioProjects/ReAn/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2125" />
+        <entry key="..\:/AndroidStudioProjects/ReAn/app/src/main/res/drawable/item_background.xml" value="0.2125" />
         <entry key="..\:/AndroidStudioProjects/ReAn/app/src/main/res/layout/activity_add_employee.xml" value="0.19635416666666666" />
+        <entry key="..\:/AndroidStudioProjects/ReAn/app/src/main/res/layout/activity_employee_display.xml" value="0.19635416666666666" />
+        <entry key="..\:/AndroidStudioProjects/ReAn/app/src/main/res/layout/activity_main.xml" value="0.19635416666666666" />
+        <entry key="..\:/AndroidStudioProjects/ReAn/app/src/main/res/layout/employee_item.xml" value="0.19635416666666666" />
         <entry key="..\:/Environment/Android/Sdk/platforms/android-30/data/res/drawable/btn_radio.xml" value="0.1" />
         <entry key="..\:/Environment/Android/Sdk/platforms/android-30/data/res/drawable/control_background_40dp_material.xml" value="0.1" />
         <entry key="..\:/Work/AndroidStudioProjects/ReAnd/app/src/main/res/layout/activity_add_employee.xml" value="0.1" />
