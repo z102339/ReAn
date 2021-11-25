@@ -31,5 +31,10 @@ public class DbOpImpl implements DbOp{
         return sqLiteDatabase.query(distinct, table, columns, selection, selectionArgs, groupBy, having, orderBy, limit);
     }
 
+    @Override
+    public void close() {
+        sqLiteDatabase.close();
+    }
+
 
 }

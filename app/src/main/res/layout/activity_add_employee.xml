@@ -43,19 +43,19 @@
             android:id="@+id/gender"
             android:layout_width="match_parent"
             android:orientation="horizontal"
+            android:checkedButton="@id/male"
             android:gravity="center_horizontal"
             android:layout_height="wrap_content">
 
             <RadioButton
                 android:checked="true"
-                android:id="@+id/radioButton2"
+                android:id="@+id/male"
                 android:layout_width="wrap_content"
-                style=""
                 android:layout_height="wrap_content"
                 android:text="男" />
 
             <RadioButton
-                android:id="@+id/radioButton"
+                android:id="@+id/female"
                 android:layout_width="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:layout_height="wrap_content"

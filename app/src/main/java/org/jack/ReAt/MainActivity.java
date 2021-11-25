@@ -1,7 +1,5 @@
 package org.jack.ReAt;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -9,8 +7,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import org.jack.ReAt.bean.Person;
-import org.jack.ReAt.db.DbOp;
 import org.jack.ReAt.db.DbUtils;
 import org.jack.ReAt.db.EmTbOp;
 
@@ -61,5 +60,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void update(View view) {
 
+    }
+
+
+    @Override
+    protected void onDestroy() {
+        emTbOp.close();
+        emTbOpR.close();
+        super.onDestroy();
     }
 }

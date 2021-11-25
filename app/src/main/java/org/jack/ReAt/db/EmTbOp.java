@@ -57,4 +57,8 @@ public class EmTbOp{
         cursor.close();
         return personList;
     }
+
+    public void close() {
+        dbOp.close();
+    }
 }

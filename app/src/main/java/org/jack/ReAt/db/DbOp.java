@@ -11,4 +11,6 @@ public interface DbOp {
     Cursor query(boolean distinct, String table, String[] columns,
                  String selection, String[] selectionArgs, String groupBy,
                  String having, String orderBy, String limit);
+
+    void close();
 }
